@@ -4,7 +4,8 @@ import os
 from datetime import date
 
 # 🔑 Replace with your API key
-API_KEY = "29de8b594a88cb2b8841c0c3"
+API_KEY = os.getenv("29de8b594a88cb2b8841c0c3")
+
 
 # API endpoint
 url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/USD"
